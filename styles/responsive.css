@@ -1,0 +1,21 @@
+@media screen and (max-width:600px) {
+    body{
+        /* background-color: aquamarine; */
+        margin: 0 15px;
+        border: 2px solid purple;
+    }
+    /* header styles  */
+    .logo-container{
+        width: 75%;
+    }
+    .logo-container h3{
+        font-size: 21.543px;
+    }
+    
+    .item-container{
+        display: none;
+    }
+    /* footer styles */
+    
+
+}
