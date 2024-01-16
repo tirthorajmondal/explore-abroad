@@ -169,6 +169,29 @@ main {
     height: 100%;
 }
 
+/* why choose us styles */
+.why-choose{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why-choose-text h2 , .why-choose-text p{
+    text-align: center;
+}
+.why-choose-big-container{
+    display: flex;
+}
+
+.why-choose-container{
+    width: 48.5%;
+    background-color: #ab1515;
+    gap: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* nawslater section styles */
 .Newslatter-section {
     max-width: 1200px;
