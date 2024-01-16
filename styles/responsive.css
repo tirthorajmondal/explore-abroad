@@ -1,13 +1,16 @@
 @media screen and (max-width:600px) {
     body{
-        /* background-color: aquamarine; */
+        /* background-color: aquamarine;
         margin: 0 15px;
-        border: 2px solid purple;
+        border: 2px solid purple; */
+    }
+    main{
+        margin: 0 15px;
     }
     /* header styles  */
     .logo-container{
-        width: 75%;
-    }
+        width: 100%;
+    }  
     .logo-container h3{
         font-size: 21.543px;
     }
@@ -15,7 +18,31 @@
     .item-container{
         display: none;
     }
-    /* footer styles */
-    
 
+    /* popular tour section styles */
+
+    .popular-tour-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .popular-tour-section .text-container , .popular-tour-section .img-container{
+        width: 100%;
+    }
+    /* footer styles */
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-container .footer-logo-container{
+        width: 100%;
+        justify-content: center;
+        font-size: .5em;
+    }
+   #footer-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+   }
 }
