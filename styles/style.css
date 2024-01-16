@@ -109,12 +109,21 @@ main {
 }
 
 .banner .banner-form {
-    background-color: #FFF;
+    background-color: #ffffff50;
     /* background: transparent; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 15px;
     width: 800px;
     height: 80px;
     margin: 0;
 }
+.banner .banner-form input{
+    
+}
+
 
 /* popular tour section */
 .popular-tour-section {
