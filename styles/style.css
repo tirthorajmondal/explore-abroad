@@ -182,15 +182,19 @@ main {
 }
 .why-choose-big-container{
     display: flex;
+    /* grid-template-columns: 2, 1fr; */
+    
 }
 
 .why-choose-container{
     width: 48.5%;
-    background-color: #ab1515;
+    /* background-color: #ab1515; */
     gap: 3%;
     display: flex;
     flex-wrap: wrap;
+    /* width: 40%; */
 }
+
 
 /* nawslater section styles */
 .Newslatter-section {
